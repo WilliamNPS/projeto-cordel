@@ -1,0 +1,117 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100%;
+    background-color: rgb(209, 198, 198) ;
+
+    }
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 100%;
+   
+}
+
+header>h1{
+    padding-top: 40px;
+}
+
+header>h3{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;  
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    text-decoration: underline;
+}
+/*conteudo*/
+
+main{
+    font-size: 20px;
+   
+}
+
+div{
+    
+    text-transform: uppercase;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    line-height: 2;
+    padding-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.foto{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+ 
+    background-image: url('imagens/cordel.jpg');
+    background-attachment:fixed ;
+    border-radius: 30px;
+
+}
+
+
+.normal{
+color: black;
+background-color: beige;
+}
+
+
+.foto>p{
+background-color: rgba(0, 0, 0, 0.726);
+color: white;
+border-radius: 0px 20px 20px 0px;
+width: 400px;
+padding-left: 10px;
+display: inline-block;
+background-repeat: no-repeat;
+text-shadow: 3px solid red 3px solid red 3px solid red black;
+}
+
+#foto2{
+    background-image: url('imagens/abobora.jpg');
+}
+
+    /*video*/
+article{
+position: relative;
+height: 400px;
+width: 500px;
+margin: auto;
+margin-top: 20px;
+padding-left: 20px;
+background-color: black;
+border-radius: 30px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
+
+}
+
+article>iframe{
+ position: absolute;
+}
+
+
+/*roda pé*/
+footer{
+    margin: 20px 0px 10px 0px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
