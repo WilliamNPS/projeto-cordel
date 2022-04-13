@@ -91,7 +91,7 @@ text-shadow: 3px solid red 3px solid red 3px solid red black;
     /*video*/
 article{
 position: relative;
-height: 400px;
+height: 415px;
 width: 500px;
 margin: auto;
 margin-top: 20px;
@@ -104,6 +104,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
 
 article>iframe{
  position: absolute;
+ top: 5px;
 }
 
 
